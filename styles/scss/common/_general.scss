@@ -1,0 +1,387 @@
+// General
+html {
+    overflow-x: hidden;
+}
+body,
+body{
+    height: 100%;
+}
+body {
+    font-family: $fontfamily;
+    background: $bodybg;
+    font-size: $fontsize;
+    color: $textcolor;
+    letter-spacing: 0.01em;
+}
+.bg-body{
+    //background: $lighter url('../../images/logo/bgv.svg');
+    background-size: 400px 400px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.main-app {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -180px;
+}
+.login-app {
+    padding-top:30px;
+    height: 100%;
+}
+.index-app {
+    padding-top:50px;
+}
+.main-app:after {
+    content: "";
+    display: block;
+}
+.btn-primary {
+    color: #fff;
+    padding: 10px;
+    background-color:$brand;
+    border-color:$brandhover;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: $brandhover;
+    border-color: $brandhover;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(6,230,119, 0.8);
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, 
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(6,230,119, 0.8);
+}
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color:$brandhover;
+    border-color: $brandhover;
+
+}
+
+.btn-primary-outline{
+    color:$brand;
+    background-color: $white;
+    border-color: $brand;
+    border-radius: 0px;
+
+}
+.btn-primary-outline:hover,
+.btn-primary-outline:focus{
+    color:$brand;
+    border-color: $brand;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: $brand;
+    background-color: $brand;
+}
+.label-primary {
+    background-color: $brand;
+    height: 26px;
+    border-radius: 4px;
+    color: white;
+    line-height: 15px;
+}
+.back-to-top {
+    display: none;
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    z-index: 999;
+    right: 15px;
+    bottom: 15px;
+    background: $brand;
+    padding: 8px; }
+.back-to-top i {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 16px; }
+
+body.modal-open {
+    overflow: visible;
+}
+.main-app-section{
+    position: relative;
+    float: right;
+    // padding-top: 70px;
+    width: 100%;
+    // transition: all .5s cubic-bezier(.685,.0473,.346,1);
+    /* transform: translate3d(160px,0,0);*/
+}
+.landing-app{
+    .main-app-section{
+        padding-top: 70px;
+    }
+    .navigation-header {
+        padding: 0px 0px;
+        background: #fff;
+    }
+    @media only screen and (min-width:320px) and (max-width:992px){
+        .navigation-header {
+            padding: 10px 0px;
+        }
+    }
+}
+.navbar-toggle{
+    display:none;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.nav-side-menu-header{
+    border-bottom: 1px solid $brand;
+    float: left;
+    height: 60px;
+    width: 100%;
+    background: $white;
+}
+.custom-nice-scroll-dashboard{
+    overflow: auto;
+}
+.app-layout-content-inner {
+    width: 100%;
+    padding: 12px;
+    background: $white;
+}
+.app-layout-content{
+    margin-left: 160px;
+    padding-top: 60px;
+    position: relative;
+}
+
+
+.sidebar-fixed {
+    top: 60px;
+    left: 0px;
+    position: fixed;
+    z-index: 99;
+}
+/*.btn-primary{
+background: #ED174C;
+border-color: #ED174C;
+color: #fff;
+}*/
+.hide-password{
+    display: none;
+}
+.showhide .show-password i{
+    background: url("../../images/icons/eye.svg");
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
+    float: left;  
+    margin-right: 5px;
+}
+.showhide .hide-password i{
+    background: url("../../images/icons/eyesplash.svg");
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
+    float: left;  
+    margin-right: 5px;
+}
+.brand-logo{
+    background: #f6f6f6;
+    float: left;
+    height: 60px;
+    width: 280px;
+    padding: 2px;
+    text-align: center;
+    -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+}
+.brand-text-home{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px;
+    line-height: 55px;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .tiny-sidebar{
+        .brand-logo{
+            width:150px;
+        }
+    }
+    .main-app-section{
+        width: 100%;
+    }
+}
+.footer,
+.main-app:after {
+    height: 50px;
+}
+.app-container{
+}
+.bs-tooltip-right .arrow{
+    display: none;
+}
+.app-content{
+    background: $white;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    /* -webkit-box-shadow:  0 0 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);*/
+    min-height: calc(100% - 140px);
+}
+.main-content-wrapp{
+    padding-top: 15px;
+    float: left;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+a {
+    color: $linkcolor;
+    transition: color 0.3s ease;
+    &:hover {
+        color: darken($linkcolor, 15%);
+    }
+    &:focus {
+        text-decoration: none;
+        color: $linkcolor;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+dt {
+    float: left;
+    margin-right: 5px;
+}
+dd {
+    margin-bottom: 15px;
+    .label {
+        display: inline-block;
+        margin: 0 4px 4px 0;
+        padding: 5px 10px;
+    }
+}
+dd:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.hide-box{
+    display: none;
+}
+.show-box{
+    display: block;
+}
+//Breadcrumb Dashboard
+.breadcrumb-dashboard{
+    background: $bg-breadcrumbs;
+    border-bottom: 1px solid $breadcrumbs-border-color;
+    float: left;
+    width: 100%;
+    padding: 12px;
+    h3{
+        color:$breadcrumbs-color;
+        margin-top: 5px;
+        text-shadow: none;
+        font-size: 26px;
+        margin: 0px;
+        line-height: 32px;
+    }
+    .breadcrumb-list{
+        ul{
+            margin-bottom: 0px;
+            background: none;
+            padding: 0px;
+            li{
+                display: inline-block;
+                float: left;
+                list-style: none;
+                font-size:14px;
+                a{
+                    color: $breadcrumbs-color;
+                    &:hover{
+                        color: $brandcolor;
+                    }
+                }
+            }
+            > li + li:before {
+                content: "/ ";
+                padding: 0 5px;
+                color: $breadcrumbs-color;
+            }
+            .active{
+                color: $brandcolor;
+            }
+        }
+    }
+}
+/* Client Logo block*/
+.home-client-logo-block{
+    float: left;
+    width: 100%;
+    background: #f1fbff;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .hcxs-box{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+.client-logo-block{
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .cxs-box{
+        border:1px solid #eee;
+        padding: 15px;
+        float: left;
+        width: 100%;
+        margin-bottom: 24px;
+        text-align: center;
+        -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        -webkit-transition: all 0.15s linear;
+        -moz-transition: all 0.15s linear linear;
+        -webkit-transition: all 0.15s linear;
+        -o-transition: all 0.15s linear;
+        transition: all 0.15s linear;
+        cursor: pointer;
+        &:hover{
+            -webkit-transition: all 0.15s linear;
+            -moz-transition: all 0.15s linear linear;
+            -webkit-transition: all 0.15s linear;
+            -o-transition: all 0.15s linear;
+            transition: all 0.15s linear;
+            -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        }
+        span{
+            float: left;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            fomt-size:16px;
+            color: $brand;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+    @media only  screen and (min-width:320px) and (max-width:480px){
+        .cxs-box{
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    }
+}

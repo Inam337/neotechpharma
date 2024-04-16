@@ -1,0 +1,1378 @@
+[
+  {
+    "id": 1,
+    "name": "Vibro Tech 20/25",
+    "description": "Vibrotech is one of the major manufacturer of iron removal systems and vibrating sieve machines in the world",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate ",
+          "value": "20 g"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "25 g"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Vibro Tech 10/20",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "10 g"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "20 g"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Vibro Tech 20/40",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "20 g"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "40 g"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Colsin - 400",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Colistin Sulphate",
+          "value": "400,000,000 IU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Colsin 460",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Colistin Sulphate",
+          "value": "460 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Colsin 480",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Colistin Sulphate",
+          "value": "480 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Colsin 480",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Colistin Sulphate",
+          "value": "480 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Colsin 500",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Colsin Sulphate ",
+          "value": "500 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Colsin 550",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Colsin Sulphate ",
+          "value": "550 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Pentaprol - 50",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Amprolium HCL",
+          "value": "50 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Pentaprol - 60",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Amprolium HCL",
+          "value": "60 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Pentaprol - 90",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Amprolium HCL",
+          "value": "90 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Pentaprol - 98",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Amprolium HCL",
+          "value": "98 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Neoritis- 30",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Neomycin Sulphate",
+          "value": "300 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Neoritis- 50",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Neomycin Sulphate",
+          "value": "500 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "Neoritis- 60",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Neomycin Sulphate",
+          "value": "60 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Neoritis- 70",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Neomycin Sulphate",
+          "value": "70 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Neoritis- 72",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Neomycin Sulphate",
+          "value": "72 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Lincolide - 1.1",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Lincomycin HCL",
+          "value": ""
+        },
+        {
+          "label": "Monohydrate",
+          "value": "1.1 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Lincolide - 4.4",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Lincomycin HCL",
+          "value": ""
+        },
+        {
+          "label": "Monohydrate",
+          "value": "4.4 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "name": "Lincolide - 44",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Lincomycin HCL",
+          "value": ""
+        },
+        {
+          "label": "Monohydrate",
+          "value": "44 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "name": "Lincolide - 11",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Lincomycin HCL",
+          "value": ""
+        },
+        {
+          "label": "Monohydrate",
+          "value": "11 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "name": "Lincolide - 40",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Lincomycin (as HCL Monohydrate)",
+          "value": "40 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "name": "Lincolide - 40",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Neomycin Sulphate",
+          "value": "150 mg"
+        },
+        {
+          "label": "Florfenicol",
+          "value": "100 mg"
+        },
+        {
+          "label": "Oxytetracycline HCL",
+          "value": "300 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "name": "Fosfosin ",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Calcium Fosfomycin",
+          "value": "20.0 gm"
+        },
+        {
+          "label": "Tylosin Tartrate",
+          "value": "10.0 gm"
+        },
+        {
+          "label": "Fructose",
+          "value": "18.0 gm"
+        },
+        {
+          "label": "Sodium Phosphate",
+          "value": "15.0 gm"
+        },
+        {
+          "label": "Magnesium Sulphate",
+          "value": "10.0 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "name": "Sinfos",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "5.0 gm"
+        },
+        {
+          "label": "Fosfomycin",
+          "value": "20.0 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "name": "Neodox-20",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Doxycycline HCL",
+          "value": "20 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "name": "Neodox-50",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Doxycycline HCL",
+          "value": "500 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "name": "Neodox-80",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Doxycycline HCL",
+          "value": "80 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "name": "Relexin - 20",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "10 gm"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "20 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "50 MIU"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "0.5gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "name": "Relexin - 30",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "10 gm"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "20 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "48 MIU"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "0.3 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "name": "Relexin - 40",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "100 mg"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "200 mg"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "500 MIU"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "10 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "name": "Relexin - 50",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "10 gm"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "20 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "3 gm"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "10 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "name": "Relexin - 700",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "20 gm"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "40 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "100 MIU"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "1 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "name": "Relexin - 800",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "20 gm"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "40 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "6 gm"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "2 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "name": "Relexin - 900",
+    "description": "",
+    "product_form": "powder",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 gm contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate",
+          "value": "20 gm"
+        },
+        {
+          "label": "Doxycycline HCL",
+          "value": "40 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "10 gm"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "2 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "name": "Bancox -25",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Toltrazuril",
+          "value": "2.5 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "name": "Bancox -50",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Toltrazuril",
+          "value": "5 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "name": "Tilcotech-25",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tilmicosin (AS Phosphate)",
+          "value": "25 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "name": "Bioenro-10",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "10 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "name": "Bioenro-20",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "20 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "name": "Bioenro-25",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "25 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "name": "Technoflor-10",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Florfenicol",
+          "value": "100 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "name": "Technoflor-20",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Florfenicol",
+          "value": "20 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "name": "Technoflor-25",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Florfenicol",
+          "value": "250 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "name": "Sulfaflox",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "75 gm"
+        },
+        {
+          "label": "Sulphamethoxypyridazine",
+          "value": "75 mg"
+        },
+        {
+          "label": "Sulphamethazine",
+          "value": "50 mg"
+        },
+        {
+          "label": "Trimethoprim",
+          "value": "25 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "name": "Neotrilc-10",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "10 g"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "50 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "name": "Neotrilc-20",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "20 g"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "50 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "name": "Neotrilc-25",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "25 g"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "50 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "name": "Neotrilc-100",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "10 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "6 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "name": "Neotrilc-150",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "10 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "50 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "name": "Neotrilc-200",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "20 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "200 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "name": "Neotrilc-220",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "20 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "20 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "name": "Neotrilc-300",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Enrofloxacin",
+          "value": "20 g"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "4.5 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "name": "Fenflor C-10",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Florfenicol",
+          "value": "10 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "2.5 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "name": "Fenflor C-11",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Florfenicol",
+          "value": "11 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "50 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "name": "Fenflor C-15",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Florfenicol",
+          "value": "10 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "50 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "name": "Fenflor C-20",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Florfenicol",
+          "value": "10 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "2.5 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "name": "Fenflor C-30",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Florfenicol",
+          "value": "250 gm"
+        },
+        {
+          "label": "Colistin Sulphate",
+          "value": "0.50 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "name": "Mucomen-30",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Menthol",
+          "value": "20 mg"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "10 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "name": "Mucomen-60",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Menthol",
+          "value": "40 mg"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "20 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "name": "Mucomen-90",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Menthol",
+          "value": "40 mg"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "50 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "name": "Mucomen-90",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Bromhexine HCL",
+          "value": "0.5 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "name": "Neobrom-5",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Bromhexine HCL",
+          "value": "0.5 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "name": "Neobrom-10",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Bromhexine HCL",
+          "value": "1 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "name": "Neobrom-20",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Bromhexine HCL",
+          "value": "20 mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "name": "Neobrom-50",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Bromhexine HCL",
+          "value": "5 gm"
+        }
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "name": "NEO-PEFLOX",
+    "description": "",
+    "product_form": "liquid",
+    "image": "https://dummyimage.com/300",
+    "composition": {
+      "heading": "Each 100 ml contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Pefloxacin Methanesulfonate",
+          "value": "13.960 gm"
+        },
+        {
+          "label": "Eq. to pefloxacin base",
+          "value": "10 gm"
+        }
+      ]
+    }
+  }
+]

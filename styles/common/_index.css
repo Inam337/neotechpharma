@@ -1,0 +1,32 @@
+.form-widget-block {
+  float: left;
+  width: 100%; }
+
+.form-widget-block h1 {
+  float: left;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  margin: 0px; }
+
+.form-widget-section {
+  float: left;
+  width: 100%; }
+
+.form-widget-block h2 {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  margin: 0px;
+  padding: 0px; }
+
+.form-widget-block h3 {
+  float: left;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin: 0px; }

@@ -1,0 +1,160 @@
+.navigation-header{
+    padding: 0px 0px;
+    background: rgba(255,255,255, 0.5);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear linear;
+    -webkit-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+    -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.navbar{
+    padding: 0px;
+    .nav-item.active{
+        background: $nav-bg-hover;
+        a{
+            color: $white !important;
+        }
+    }
+    ul.navbar-nav{
+        //background: $nav-bg;
+    }
+    .nav-link {
+        padding: 1.5rem 1rem;
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+        color: $black !important;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        &:hover{
+            background: $nav-bg-hover !important;
+        }
+        &:hover,
+        &:focus{
+            text-decoration: none;
+        }
+    }
+    .dropdown-menu{
+        border-color: $nav-bg-hover;
+        border-radius: 0px;
+    }
+    .dropdown-menu > li a:hover, 
+    .dropdown-menu > li.show {
+        background: $nav-bg-hover;
+        color: white;
+    }
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: none;
+    height: 36px;
+    cursor: pointer;
+}
+.navbar-toggler-icon{
+    position: relative;
+    height: 2px;
+    background: $nav-bg;
+    &:before{
+        position: absolute;
+        top:-8px;
+        content: '';
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background: $nav-bg;
+    }
+    &:after{
+        position: absolute;
+        top:8px;
+        content: '';
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background: $nav-bg;
+    }
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+.dropdown-menu .dropdown-toggle::after {
+    vertical-align: middle;
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+}
+.dropdown-menu .dropdown .dropdown-menu {
+    left: 100%;
+    top: 0%;
+    margin:0 20px;
+    border-width: 0;
+}
+
+.dropdown-menu > li a:hover,
+.dropdown-menu > li.show {
+    background: #007bff;
+    color: white;
+}
+.dropdown-menu > li.show > a{
+    color: white;
+}
+/* Stackoverflow preview fix, please ignore */
+.navbar-nav {
+    flex-direction: row;
+}
+
+
+
+/* Fixes dropdown menus placed on the right side */
+/*.dropdown-menu {
+left: auto !important;
+right: 0px;
+}*/
+@media (min-width: 768px) {
+    .dropdown-menu .dropdown .dropdown-menu {
+        margin:0;
+        border-width: 1px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-nav {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.wanimate{
+    .navbar{
+        .nav-link {
+            padding: 0.3rem 1rem;
+            line-height: 40px;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+
+            color: $white !important;
+        }
+    }
+    .navigation-header{
+        background: $brand;
+    }
+    .logo-box {
+        background: url(../images/logo/wlogo-lg.svg);
+        background-size: 150px 50px;
+        background-repeat: no-repeat;
+    }
+    .landing-app{
+        .navigation-header {
+            padding: 0px 0px;
+            background: $brand;
+        }
+    }
+}

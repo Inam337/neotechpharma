@@ -1,0 +1,223 @@
+// Footer
+.footer {
+    text-align: center;
+    height:191px;
+    line-height: 28px;
+    background: $white;
+    position: relative;
+    clear: both;
+    /* border-top: 1px solid $brand;*/
+    &::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 100%;
+        position: absolute;
+        top:0px;
+        background-image: linear-gradient(139deg,  #eafbff, #19cfec, #0d2fea, #093d73);
+        
+       
+    }
+}
+// Footer
+.footer-main h2 {
+    color: $black;
+    font-size: 18px;
+    font-weight: 200;
+}
+.footer-main-inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    width: 100%;
+    position: relative;
+    background: #efefef; 
+}
+.footer-main-inner p {
+    color: $black; 
+}
+
+.footer-col-box-about {
+    text-align: left; 
+}
+.footer-col-box-about p {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.footer-tip {
+   /* background:$brand;
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    height: 2px;
+    width: 300px;
+    float: left;
+    z-index: 97;
+    margin-left: -150px;*/
+}
+.logo-footer {
+    height: 64px;
+    width: 64px;
+    display: block;
+    background: url(../images/logo/logo-footer.svg); 
+    background-size: 64px 64px; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.logo-footer img {
+    z-index: 1;
+    margin: 10px 0;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+}
+
+.new-list-unstyled {
+    padding-left: 0;
+    list-style: none; 
+}
+.new-list-unstyled li:first-child {
+    padding-top: 0;
+    border-top: none;
+}
+.new-list-unstyled li {
+    float: left;
+    margin-bottom:5px;
+    text-align: left;
+}
+.new-list-unstyled a {
+    padding: 0px 10px;
+    border-left: 2px solid $gray;
+    font-size: 14px;
+    color: $black;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.new-list-unstyled a:hover {
+    color: $dark;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    border-left: 6px solid $brandhover;
+}
+.new-list-unstyled small {
+    color:  $dark;
+    display: block;
+    float: right; 
+}
+.copyright {
+    background: $brand;
+    border-top: none;
+    padding: 12px 0px;
+    float: left;
+    width: 100%; 
+}
+.copyright p {
+    color: $white;
+    margin: 0px;
+    padding-bottom: 0px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: left;
+}
+.copyright a {
+    color: $white;
+    text-decoration: none; 
+}
+.copyright a i{
+    color: $white;
+    font-size: 25px;
+    text-decoration: none; 
+}
+.copyright a:hover {
+    color: $white;
+    text-decoration: underline;
+}
+/*Social Icons */
+.social-wrapp {
+    margin-top: 10px;
+    float: right;
+}
+
+.social-icons {
+    margin: 0px;
+    padding: 0px;
+    width: 90px;
+    float: right;
+}
+.social-icons li {
+    list-style: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block; 
+}
+.social-icons  a {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    float: left;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}
+.social-icons li:first-child{
+    margin-right: 5px;
+}
+.social-icons a:hover {
+    text-decoration: none;
+}
+@media only  screen and (min-width:320px) and (max-width:992px){
+    .social-icons{
+        float:left;
+    }
+}
+.social-facebook i {
+    color: #3b5998;
+    font-size: 24px;
+}
+
+.social-twitter i {
+    color: #258cff;
+    font-size: 24px;
+}
+
+.social-linkedin i {
+    color: #0077B5;
+    font-size: 24px; 
+}
+// contact map
+.contact-map {
+    font-size: 14px;
+}
+.contact-map p {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    margin-bottom: 5px; 
+}
+.contact-map a {
+    color: $dark;
+}
+.contact-map span {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    margin-bottom: 5px; 
+}
+.contact-map label {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.contact-map label i {
+    margin-right: 10px;
+    font-size: 18px;
+    color:$brand;
+}

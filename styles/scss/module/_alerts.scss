@@ -1,0 +1,566 @@
+.l-admin-messages{
+    position: fixed;
+    bottom: 0px;
+    background: transparent;
+    width: 100%;
+    left: 0;
+    z-index: 99;
+    @media only screen and (min-width:992px) {
+        overflow: hidden;
+        > .container {
+            max-height: 50%;
+            overflow: auto;
+            -ms-overflow-style: none;
+            &::-webkit-scrollbar {
+                width: 0px;  /* remove scrollbar space */
+                background: transparent;  /* optional: just make scrollbar invisible */
+            }
+        }
+    }
+    .messages-type {
+        pointer-events: default;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        font-size: 22px;
+        padding: 7px;
+        color: $white;
+        display: inline-block;
+        @include transform-origin(center top);
+        @include transform(translateY(-50%));
+    }
+
+    .messages-single {
+        z-index: auto;
+        opacity: 1;
+        position: relative;
+        margin: 20px 0 !important;
+        padding: 10px 60px;
+        border-radius: 3px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border: 2px solid;
+        background-color: rgba(255,255,255, 0.95);
+        @include transition(all 500ms $default-timing);
+        max-height: 350px;
+        overflow: auto;
+        -ms-overflow-style: none;
+        &::-webkit-scrollbar {
+            width: 0px;  /* remove scrollbar space */
+            background: transparent;  /* optional: just make scrollbar invisible */
+        }
+        @media only screen and (max-width:992px) {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: 0px 20px 20px;
+            max-height: 220px;
+            min-height: 220px;
+            @include display(flex);
+            @include flex-wrap(wrap);
+            @include align-items (center);
+            @include align-content(center);
+            width: 80%;
+            left: 10%;
+        }
+        @media only screen and (max-width:600px) {
+            @include align-content(flex-start);
+        }
+        p {
+            margin-bottom: 0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            // color: $navbar-link-color;
+            @media only screen and (max-width:992px) {
+
+            }
+        }
+        ul {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        li {
+            padding-left: 15px;
+            position: relative;
+            &:before {
+                content: '-';
+                position: absolute;
+                top: 50%;
+                left: 0;
+                @include transform(translateY(-50%));
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+        .icon-plus {
+            pointer-events: default;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            font-size:54px;
+            padding: 2px;
+            display: inline-block;
+            @include transform-origin(center top);
+            @include transform(rotate(90deg)translateY(-50%));
+
+        }
+    }
+    .msg-hint {
+        margin: 20px auto !important;
+        display: table !important;
+    }
+    .admin-messages-good{
+        border-color: $bgsuccess;
+        background-color: $bgsuccess;
+        color: $successcolor !important;
+        @media only screen and (max-width:992px) {
+            background-color: $white;
+        }
+        .l-admin-messages__type,
+        p,
+        a {
+            color: $successcolor !important;
+        }
+    }
+    .admin-messages-bad {
+        border-color: $bgerror;
+        background-color:  $bgerror;
+        color: $errorcolor !important;
+        .l-admin-messages__type,
+        p,
+        a {
+            color: $errorcolor !important;
+        }
+    }
+
+    .msg-close{
+        position: absolute;
+        @include transform(translateY(100%));
+        outline: none;
+            /*
+            right: 10px;
+        font-size: 50px;
+        top: 0px;
+        margin-top: -30px;
+        cursor: pointer;
+            */
+    }
+
+}
+
+.icon-plus{
+    font-size: 26px;
+}
+.icon-warning{
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 26px;
+    &:before{
+        content:"\f071";
+        font-family: FontAwesome;
+        font-weight: 900;
+    }
+}
+.icon-info{
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 26px;
+    &:before{
+        content:"\f05a";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 900;
+    }
+}
+.alert-custom {
+    padding: 10px 15px;
+    position: relative;
+    .alert-custom-in{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0px 20px 20px;
+        max-height: 220px;
+        min-height: 220px;
+        @include display(flex);
+        @include flex-wrap(wrap);
+        @include align-items (center);
+        @include align-content(center);
+        width: 80%;
+        left: 10%;
+    }
+    i{
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        font-size: 22px;
+        padding: 7px;
+        color: $brand;
+        display: inline-block;
+        @include transform-origin(center top);
+        @include transform(translateY(-50%));
+    }
+    h4{
+        font-size:14px;
+        color:$white;
+        font-weight: bold;
+    }
+    p{
+        font-size:12px;
+        color:$white;
+        margin: 0px;
+    }
+    a{
+        font-size:14px;
+        color:$white;
+        margin: 0px;
+    }
+    button.close {
+        float: right;
+        font-size: 40px;
+        font-weight: normal;
+        text-shadow: 0;
+        top: 0px;
+        right: 0px;
+        opacity: 1;
+        position: absolute;
+        text-shadow: none;
+        filter: alpha(opacity=100);
+        line-height: 28px;
+        padding: 5px 10px;
+        outline: none;
+        cursor: pointer;
+    }
+}
+.alert-custom-icon{
+    padding: 10px 50px;
+}
+/*Alert Warning*/
+.alert-warning {
+    background-color: $bgwarning;
+    border:1px solid $bwarning;
+    color:$warningcolor;
+    position: relative;
+    i{
+        font-style: normal;
+        &:before{
+            color:$warningcolor;
+            font-size: 24px;
+            float: left;
+            margin-right: 10px;
+            content: '\e83d';
+            font-family: 'fontello';
+        }
+    }
+    a.alert-link{
+        color:$warningcolor;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    p{
+        color:$warningcolor;
+    }
+    h4{
+        color:$warningcolor;
+    }
+    .close{
+        color:$warningcolor;
+    }
+    button.b-button-alert{
+        background:$warningcolor;
+        color: $white;
+        border:none;
+        cursor: pointer;
+        outline: none;
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-right: 4px;
+    }
+}
+/*Alert Error*/
+.alert-error{
+    background-color: $bgerror;
+    border:1px solid $berror;
+    color:$errorcolor;
+    i{
+        font-style: normal;
+        &:before{
+            color:$errorcolor;
+            font-size: 24px;
+            float: left;
+            margin-right: 10px;
+            content: '\e80f';
+            font-family: 'fontello';
+        }
+    }
+    a.alert-link{
+        color:$errorcolor;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    p{
+        color:$errorcolor;
+    }
+    h4{
+        color:$errorcolor;
+    }
+    .close{
+        color:$errorcolor;
+    }
+    button.b-button-alert{
+        background:$errorcolor;
+        color: $white;
+        border:none;
+        cursor: pointer;
+        outline: none;
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-right: 4px;
+    }
+}
+.alert-danger {
+    background-color: $bgdanger;
+    border:1px solid $bdanger;
+    color:$dangercolor;
+    i{
+        font-style: normal;
+        &:before{
+            color:$dangercolor;
+            font-size: 24px;
+            float: left;
+            margin-right: 10px;
+            content: '\e80f';
+            font-family: 'fontello';
+        }
+    }
+    a.alert-link{
+        color:$dangercolor;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    p{
+        color:$dangercolor;
+    }
+    h4{
+        color:$dangercolor;
+    }
+    .close{
+        color:$dangercolor;
+    }
+    button.b-button-alert{
+        background:$dangercolor;
+        color: $white;
+        border:none;
+        cursor: pointer;
+        outline: none;
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-right: 4px;
+    }
+}
+.alert-success {
+    background-color: $bgsuccess;
+    border:1px solid $bsuccess;
+    color:$successcolor;
+    i{
+        font-style: normal;
+        &:before{
+            color:$successcolor;
+            font-size: 24px;
+            float: left;
+            margin-right: 10px;
+            content: '\e80e';
+            font-family: 'fontello';
+        }
+    }
+    a.alert-link{
+        color:$successcolor;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    p{
+        color:$successcolor;
+    }
+    h4{
+        color:$successcolor;
+    }
+    .close{
+        color:$successcolor;
+    }
+    button.b-button-alert{
+        background:$successcolor;
+        color: $white;
+        border:none;
+        cursor: pointer;
+        outline: none;
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-right: 4px;
+    }
+}
+.alert-info {
+    background-color: $bginfo;
+    border:1px solid $binfo;
+    color:$infocolor;
+    i{
+        font-style: normal;
+        &:before{
+            color:$infocolor;
+            font-size: 24px;
+            float: left;
+            margin-right: 10px;
+            content: '\e83e';
+            font-family: 'fontello';
+        }
+    }
+    a.alert-link{
+        color:$infocolor;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    p{
+        color:$infocolor;
+    }
+    h4{
+        color:$infocolor;
+    }
+    .close{
+        color:$infocolor;
+    }
+    button.b-button-alert{
+        background:$infocolor;
+        color: $white;
+        border:none;
+        cursor: pointer;
+        outline: none;
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-right: 4px;
+    }
+}
+.alert-notfound {
+    background-color: $bgnotfound;
+    border:1px solid $bnotfound;
+    color:$infocolor;
+    i{
+        font-style: normal;
+        &:before{
+            color:$notfoundcolor;
+            font-size: 24px;
+            float: left;
+            margin-right: 10px;
+            content: '\f119';
+            font-family: 'fontello';
+        }
+    }
+    a.alert-link{
+        color:$notfoundcolor;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    p{
+        color:$notfoundcolor;
+    }
+    h4{
+        color:$notfoundcolor;
+    }
+    .close{
+        color:$notfoundcolor;
+    }
+}
+.label {
+    padding: 5px 15px;
+    line-height: 32px;
+    font-size:15px;
+    margin-bottom: 10px;
+}
+.badge{
+    display: inline-block;
+    min-width: 10px;
+    padding: 7px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: $gray;
+    border-radius: 10px;
+}
+.label-warning{
+    background-color: $bgwarning;
+}
+.label-danger {
+    background-color: $bgdanger;
+}
+.label-info {
+    background-color: $bginfo;
+}
+.label-success {
+    background-color: $bgsuccess;
+}
+.label-primary{
+    background-color: $brand;
+}
+.label-error {
+    background-color: $bgerror;
+}
+.text-warning {
+    color: $warningcolor;
+}
+.text-danger{
+    color: $dangercolor !important;
+}
+.text-info{
+    color: $infocolor;
+}
+.text-success{
+    color: $successcolor;
+}
+.text-primary {
+    color: $primarycolor !important;
+}
+.text-dark {
+    color: $dark;
+}
+.text-error {
+    color: $errorcolor;
+}
+.store-button{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.app-store-button{
+    margin: 0px 5px;
+}
+.play-store-button{
+    margin: 0px 5px;
+    margin-bottom: 10px;
+}
+.app-store-button img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.play-store-button img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+

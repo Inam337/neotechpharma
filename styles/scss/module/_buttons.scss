@@ -1,0 +1,219 @@
+/*
+A button suitable for giving stars to someone.
+
+:hover             - Subtle hover highlight.
+.stars-given       - A highlight indicating you've already given a star.
+.stars-given:hover - Subtle hover highlight on top of stars-given styling.
+.disabled          - Dims the button to indicate it cannot be used.
+
+Styleguide 2.1.3.
+*/
+
+.b-button{
+    word-break: normal;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 30px;
+    cursor: pointer;
+    margin-right: 16px;
+    border-radius: 3px;
+    border: none;
+    font-family: $fontfamily;
+    @include transition( all 250ms $default-timing);
+    &:focus {
+        outline: none;
+    }
+
+    &[disabled="disabled"] {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    &.loading {
+        position: relative;
+        &:after {
+            content: url('../images/loader/ring-alt.svg');
+            height: 22px;
+            @include transform( scale(1)translateY(-50%));
+            padding-left: 10px;
+            transform-origin: top center;
+            @include transition (all, 0.5s, ease)
+                position: absolute;
+            top: 26px;
+            right: 10px;
+        }
+        padding: 14px 30px;
+    }
+}
+.b-rounded{
+    border-radius:20px;
+}
+.b-button-adduser{
+    margin-right: 0px;
+}
+.b-button-comment-save{
+    margin-right: 0px;
+    float: right;
+}
+.b-button-search{
+    padding:5px 12px;
+    i{
+        font-size: 16px;
+        margin-top: 5px;
+        float: right;
+        margin-left: 8px;
+        opacity: 0.7;
+    }
+}
+.b-button-brand{
+    background-color: $brand;
+    color: $black;
+    &:hover,
+    &:focus {
+        background-color: $brandhover;
+        color: $black;
+    }
+}
+.b-button-brandholder{
+    background-color: $brandholder;
+    &:hover,
+    &:focus {
+        background-color: $brandholderhover;
+        color: $white;
+    }
+}
+
+.b-button-warning{
+    background-color: $brandorange;
+    &:hover,
+    &:focus {
+        background-color: $brandorangehover;
+        color: $white;
+    }
+}
+.b-button-error{
+    background-color: $brandred;
+    &:hover,
+    &:focus {
+        background-color: $brandredhover;
+        color: $white;
+    }
+}
+.b-button-info{
+    background-color: $brandblue;
+    &:hover,
+    &:focus {
+        background-color: $brandbluehover;
+        color: $white;
+    }
+}
+.b-button-success{
+    background-color: $brandgreen;
+    &:hover,
+    &:focus {
+        background-color: $brandgreenhover;
+        color: $white;
+    }
+}
+.b-button-green{
+    background-color: $brandgreen;
+    &:hover,
+    &:focus {
+        background-color: $brandgreenhover;
+        color: $white;
+    }
+}
+.b-button-orange{
+    background-color: $brandorange;
+    &:hover,
+    &:focus {
+        background-color: $brandorangehover;
+        color: $white;
+    }
+}
+.b-button-white{
+    background-color: $brandwhite;
+    border: 1px solid $brandwhitehover;
+    color: $black;
+    &:hover,
+    &:focus {
+        background-color: $brandwhitehover;
+        color: $black;
+    }
+}
+.b-button-black{
+    background-color: $brandblack;
+    &:hover,
+    &:focus {
+        background-color: $brandblackhover;
+        color: $white;
+    }
+}
+.b-button-aqua{
+    background-color: $brandaqua;
+    &:hover,
+    &:focus {
+        background-color: $brandaquahover;
+        color: $white;
+    }
+}
+.b-button-red{
+    background-color: $brandred;
+    &:hover,
+    &:focus {
+        background-color: $brandredhover;
+        color: $white;
+    }
+}
+.b-button-blue{
+    background-color: $brandblue;
+    &:hover,
+    &:focus {
+        background-color: $brandbluehover;
+        color: $white;
+    }
+}
+.b-button-purple{
+    background-color: $brandpurple;
+    &:hover,
+    &:focus {
+        background-color: $brandpurplehover;
+        color: $white;
+    }
+}
+.b-button-sea{
+    background-color: $brandsea;
+    &:hover,
+    &:focus {
+        background-color: $brandseahover;
+        color: $white;
+    }
+}
+.b-button-pink{
+    background-color: $brandpink;
+    &:hover,
+    &:focus {
+        background-color: $brandpinkhover;
+        color: $white;
+    }
+}
+.b-button-peach{
+    background-color: $brandpeach;
+    &:hover,
+    &:focus {
+        background-color: $brandpeachhover;
+        color: $white;
+    }
+}
+.b-button-gray{
+    background-color: $brandgray;
+    &:hover,
+    &:focus {
+        background-color: $brandgrayhover;
+        color: $white;
+    }
+}

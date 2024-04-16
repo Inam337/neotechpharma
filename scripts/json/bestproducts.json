@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Vibro Tech 20/25",
+    "description": "Vibrotech is one of the major manufacturer of iron removal systems and vibrating sieve machines in the world",
+    "product_form": "Oral Powder",
+    "image": "https://dummyimage.com/300",
+    "product_form": "Power",
+    "product_label": "Best Seller",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate ",
+          "value": "20 g"
+        },
+        {
+          "label": "Doxycycline Tartrate ",
+          "value": "25 g"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Colsin 400",
+    "description": "Colomycin is given by injection to treat some types of serious infections caused by certain bacteria. It belongs to a group of antibiotics that are called polymyxins.",
+    "product_form": "Type 2",
+    "image": "https://dummyimage.com/300",
+    "product_label": "Best Seller",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "As per Innovator's Specification",
+      "ingredient_list": [
+        {
+          "label": "Colsin Sulphate ",
+          "value": "460 MIU"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Relexin 900",
+    "description": "Relaxin is a reproductive hormone that helps the body stretch and prepare for delivery during pregnancy. It's produced by the ovaries and placenta, and in males, it's synthesized in the prostate and released in semen.",
+    "product_form": "Water Soluble Powder",
+    "image": "https://dummyimage.com/300",
+    "product_label": "Best Seller",
+    "composition": {
+      "heading": "Each 100g contains",
+      "notes": "USP Specification",
+      "ingredient_list": [
+        {
+          "label": "Tylosin Tartrate ",
+          "value": "20 gm"
+        },
+        {
+          "label": "Doxycycline Tartrate ",
+          "value": "40 gm"
+        },
+        {
+          "label": "Colistin Sulphate ",
+          "value": "10 g"
+        },
+        {
+          "label": "Bromhexine HCL",
+          "value": "2 gm"
+        }
+      ]
+    }
+  }
+]

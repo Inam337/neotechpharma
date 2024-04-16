@@ -1,0 +1,173 @@
+// Colors
+$white:                                     #ffffff;
+$black:                                     #000000;
+$gray:                                      #cccccc;
+$dark:                                      #333333;
+$lighter:                                   #eeeeee;
+$light:                                     #dddddd;
+$brand:                             #4366b0;
+$brandhover:                        #316fdd;
+$brandlight:                        #bbbbbb;
+$brandlighthover:                   #eeeeee;
+$brandholder:                       #393030;
+$brandholderhover:                  #444242;
+$brandgray:                         #3b3b3b;
+$brandgrayhover:                    #333333;
+$brandgreen:                        #0fcf11;
+$brandgreenhover:                   #1c8e1e;
+$brandred:                          #ff0000;
+$brandredhover:                     #e21818;
+$brandorange:                       #ffa126;
+$brandorangehover:                  #e58100;
+$brandblue:                         #4824ff;
+$brandbluehover:                    #361db3;
+$brandpurple:                       #6637a7;
+$brandpurplehover:                  #512b84;
+$brandsea:                          #00ba9e;
+$brandseahover:                     #00917b;
+$brandpink:                         #ff0859;
+$brandpinkhover:                    #dd0049;
+$brandpeach:                        #f47950;
+$brandpeachhover:                   #d74c1d;
+$brandaqua:                         #00ffff;
+$brandaquahover:                    #00bdbd;
+$brandwhite:                        #ffffff;
+$brandwhitehover:                   #f2f2f2;
+$brandblack:                        #000000;
+$brandblackhover:                   #333333;
+$brandyellow:                       #FFE34D;
+$brandyellowhover:                  #FFE870;
+$brandheader:                       #393030;
+$widgetheader:                      #393030;
+$brandwidget:                       #393030;
+
+$lighterblue:                               #F1F9FF !default;
+$brandcolor:                                #667ADD !default;
+$secondarycolor:                            #fb6542 !default;
+$secondary-light-color:                     #CCCCCC !default;
+$secondary-color-active:                    #000000 !default;
+$warning-color:                             #ffc107 !default;
+$linkcolor:                                 #667ADD !default;
+$errorcolor:                                #e03e3e !default;
+$placeholder-color:                         #929292 !default;
+$bodybg:                                    #ffffff !default;
+$global:                                    #eeeeee !default;
+$textcolor:                                 #333333 !default;
+
+
+$green:                                     #8bc34a !default;
+$greenhover:                                #8bc34a !default;
+$lightgreen:                                #e6ee9c !default;
+$red:                                       #bf360c !default;
+$redhover:                                  #bf360c !default;
+$lightred:                                  #ffab91 !default;
+$blue:                                      #667ADD !default;
+$bluehover:                                 #667ADD !default;
+$lightblue:                                 #BCE0FD !default;
+$orange:                                    #ffc12c !default;
+$orangehover:                               #ffc12c !default;
+$lightorange:                               #ffc12c !default;
+$orange:                                    #667ADD !default;
+$lightorange:                               #BCE0FD !default;
+//Form
+$label-color:                               #4D4D4D !default;
+$field-text-color:                          #4D4D4D !default;
+$field-text-size:                           14px;
+$field-height:                              45px;
+$field-padding:                             0 20px;
+$form-small:                                360px;
+// Border
+$borderradius:                              4px;
+// Font
+$fontsize:                                  14px;
+$fontfamily:                                'Roboto', sans-serif;
+$normal:                                    400;
+$bold:                                      700;
+
+//Breadcrumbs
+$bg-breadcrumbs:                             #e9edf2 !default;
+$breadcrumbs-border-color:                   #dee2e8 !default;
+$breadcrumbs-color:                          #90999c !default;
+$breadcrumbs-hover-color:                    #54596b !default;
+
+//Nav
+$topbar-height:                             60px !default;
+$topbar-color:                              #ffe53c !default;
+$nav-height:                                60px !default;
+$nav-bg:                                    #4366b0 !default;
+$nav-bg-hover:                              #316fdd !default;
+$nav-link-color:                            #ffffff !default;
+$nav-link-hover-color:                      #ffffff !default;
+$nav-link-hover-bg:                         #316fdd !default;
+
+// Border
+$base-border-radius:                        4px;
+$row-hover-bg:                              #f2f2f2;
+$tb-btn-color:                              #4D4D4D;
+$tb-btn-bg:                                 #F2F2F2;
+$tb-cbtn-color:                             #ffffff;
+$tb-cbtn-bg:                                #4d4d4d;
+
+//Footer
+$footer-bg:                                 #01b35b !default;
+
+
+// Sidebar Nav 
+$bgsidebar:                     #f0f0f0 !default;
+$bgsidebarhover:                #edd539 !default;
+$sidebarcolor:                  #000000 !default;
+$sidebarborder:                 #3c3c3c !default;
+$sidebarhover:                  #ffffff !default;
+$sidebarborderbottom:           #464646 !default;
+$sidebarborderlefthover:        #464646 !default;
+$bgnestedsidebar:               #eeeeee !default;
+$submenuhover:                  #ffe53c !default;
+
+// Timing Functions
+$default-timing:                    cubic-bezier(0.175,0.885,0.320,1.275);
+
+
+//Alert Messages
+$bgdefault:                         #f2f2f2;
+$bginfo:                            #d3fffb;
+$bgdanger:                          #d5d5d5;
+$bgwarning:                         #ffdca5;
+$bgsuccess:                         #c2ffc3;
+$bgerror:                           #ffd5d6;
+$bgnotfound:                        #4f4275;
+$bgfooter:                          #2a2967;
+$berror:                            #ff9b9b;
+$bdefault:                          #f2f2f2;
+$binfo:                             #d3fffb;
+$bdanger:                           #d5d5d5;
+$bwarning:                          #ffdca5;
+$bsuccess:                          #c2ffc3;
+$berror:                            #ffd5d6;
+$bnotfound:                         #4f4275;
+$bg-panel:                          #f2f2f2;
+$defaultcolor:                      #f2f2f2;
+$infocolor:                         #13d2c2;
+$dangercolor:                       #999999;
+$warningcolor:                      #d98500;
+$successcolor:                      #58c026;
+$errorcolor:                        #ff0000;
+$primarycolor:                      #c3a901;
+$notfoundcolor:                     #ffffff;
+$primary-hover-color:               #58b2fa;
+$secondary-hover-color:             #6dbb80;
+$default-hover-color:               #ffffff;
+$info-hover-color:                  #868d92;
+$danger-hover-color:                #f14f4f;
+$warning-hover-color:               #fdd27f;
+$success-hover-color:               #66d92f;
+
+$facebook:                          #3B5998;
+$twitter:                           #1dcaff;
+$linkedin:                          #0077B5;
+$instagram:                         #fb3958;
+$copyright:                         #eeeeee;
+
+// Border
+$base-border-radius: 4px;
+$base-border-color:#CCCCCC;
+

@@ -1,0 +1,212 @@
+.sidebar {
+    background: $bgsidebar;
+    float: left;
+    width: 280px;
+    height: 100%;
+    transition: all .3s linear;
+    /*transition: all .3s cubic-bezier(.685,.0473,.346,1);*/
+}
+.accordion-menu{
+    padding: 0px;
+    margin: 0px;
+    width: 280px;
+    display: block;
+    float:left;
+    background: $bgsidebar;
+    li{
+        float: left;
+        width: 100%;
+    }
+    a {
+        display: block;
+        padding: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        color:#bbb;
+        background: transparent;
+        text-decoration: none;
+        font-size:14px;
+        position: relative;
+        text-align: center;
+        float: left;
+        width: 100%;
+        .narrow{
+            position: absolute;
+            top: 20px;
+            left: 8px;
+        }
+        p {
+            line-height: 20px !important;
+            margin: 0;
+            float: left;
+            margin-top: 5px;
+            font-weight: 600;
+        }
+        i{
+            font-size: 24px;
+            font-weight: normal;
+            font-style: normal;
+            width: 26px;
+            height: 26px;
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 50%;
+
+        }
+        span.menu-icon {
+            display: inline-block;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .narrow{
+            i{
+                font-size: 12px;
+                background: url("../images/icons/arrow-right.svg");
+                background-size: 12px 12px;
+                width: 12px;
+                height: 12px;
+                float: left;
+                margin: 0px;
+                -webkit-transition:ease-in 0.2s;
+                transition:ease-in 0.2s;
+            }
+        }
+        .icon-school{
+            background-image: url('../images/icons/school.svg');
+            background-repeat: no-repeat;
+            background-size: 26px  26px;
+        }
+        .icon-coach{
+            background-image: url('../images/icons/coach.svg');
+            background-repeat: no-repeat;
+            background-size: 26px  26px;
+        }
+        .icon-program{
+            background-image: url('../images/icons/program.svg');
+            background-repeat: no-repeat;
+            background-size: 26px  26px;
+        }
+        .icon-user{
+            background-image: url('../images/icons/user.svg');
+            background-repeat: no-repeat;
+            background-size: 26px  26px;
+        }
+        .icon-report{
+            background-image: url('../images/icons/report.svg');
+            background-repeat: no-repeat;
+            background-size: 26px  26px;
+        }
+        
+    }
+    ul{
+        z-index: 9999;
+        padding: 0px;
+        li{
+            float: left;
+            width: 100%;
+            a{
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                font-size: 14px;
+                text-align: left;
+                padding-left: 46px;
+                color: black;
+                padding-right: 30px;
+                background-color: #f0f0f0;
+                /*background-image: url('../images/icons/arrow-right-light.svg');*/
+                background-position:220px 12px;
+                background-repeat: no-repeat;
+                background-size: 16px 16px;
+                margin-bottom: 4px;
+                cursor: pointer;
+                text-decoration: none;
+                &:hover{
+                    background-color: #fff;
+                    /*background-image: url('../images/icons/arrow-right.svg');*/
+                    background-position: 220px 12px;
+                    background-repeat: no-repeat;
+                    background-size: 12px 12px;
+                    
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+                .badge {
+                    float: right;
+                    margin-top: 1px;
+                    margin-right: 0px;
+                    margin-left: 0px;
+                    display: block;
+                }
+                .narrow{
+                    i{
+                        font-size: 16px;
+                        background: url("../images/icons/arrow-right.svg");
+                        background-size: 12px 12px;
+                        width: 12px;
+                        height: 12px;
+                        float: left;
+                    }
+                }
+            }
+            a.active{
+                background-color: #fff;
+                /*background-image: url('../images/icons/arrow-right.svg');*/
+                background-position: 220px 12px;
+                background-repeat: no-repeat;
+                background-size: 12px 12px;
+            }
+            ul {
+                padding: 2px 0 2px 0;
+
+            }
+        }
+
+    }
+    li{
+        list-style-type: none;
+        a{
+            &:hover{
+                background: none;
+                color: $brand;	
+            }
+        }
+    }
+    .sub-menu{
+        display:none;
+        background:#f0f0f0;
+        float: left;
+        width: 100%;
+    }
+}
+.droplink-active{
+    a{
+        .narrow{
+            i{
+                background: url("../images/icons/arrow-down.svg");
+                -webkit-transition:ease-in 0.2s;
+                transition:ease-in 0.2s;
+            }
+        }
+        p{
+            color: $brand;
+        }
+        .icon-school{
+            background-image: url('../images/icons/school-active.svg');
+        }
+        .icon-coach{
+            background-image: url('../images/icons/coach-active.svg');
+        }
+        .icon-program{
+            background-image: url('../images/icons/program-active.svg');
+        }
+        .icon-user{
+            background-image: url('../images/icons/user-active.svg');
+        }
+        .icon-report{
+            background-image: url('../images/icons/report-active.svg');
+        }
+    }
+
+}
